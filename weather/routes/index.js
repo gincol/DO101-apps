@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const fetch = require("node-fetch");
 require('dotenv').config();
-const OWM_API_KEY = process.env.OWM_API_KEY || 'invalid_key';
+const OWM_API_KEY = process.env.OWM_API_KEY || 'b4e020e59b65155eef293b7e93d53a13';
 const UNITS = process.env.UNITS || 'metric';
 
 /* GET home page. */
